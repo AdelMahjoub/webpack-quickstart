@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="<%= htmlWebpackPlugin.options.lang %>">
+<head>
+  <base href="<%= htmlWebpackPlugin.options.base.href %>">
+  <meta charset="UTF-8">
+  <meta 
+    name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+  <meta 
+    http-equiv="X-UA-Compatible" 
+    content="ie=edge">
+   <meta 
+    name="description" 
+    content="<%= htmlWebpackPlugin.options.meta.description %>"> 
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+      window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+      ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+</html>
