@@ -7,11 +7,11 @@ A webpack config for building modern javascript applications
 
 **Install the dependencies** `$ npm install`
 
-** Start a development server ** `$ npm start`
+**Start a development server** `$ npm start`
 
-** Generate an optimized production build ** `$ npm run build`
+**Generate an optimized production build** `$ npm run build`
 
-** Features **
+**Features**
 ---
 
 **eslint** [airbnb javascript style](https://github.com/airbnb/javascript)
