@@ -1,9 +1,9 @@
 {
   "name": "webpack-quickstart",
   "version": "1.0.0",
-  "description": "a starter webpack config for building any javascript application",
+  "description": "A webpack config for building modern javascript applications",
   "scripts": {
-    "start": "WEBPACK_BUILD_MODE=dev webpack-dev-server --hot --progress",
+    "start": "WEBPACK_BUILD_MODE=dev webpack-dev-server --hot --progress --open",
     "build": "WEBPACK_BUILD_MODE=prod webpack --optimize-minimize --progress"
   },
   "keywords": [
