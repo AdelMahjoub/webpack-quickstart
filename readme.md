@@ -30,7 +30,7 @@ A webpack config for building modern javascript applications
 
 **hot reloading and overlay**
 
-**devserver proxied to `/api` targeting localhost:3000, so you can make requests from your backend at that port without cors issues**
+**devserver proxied to `/api` targeting localhost:3000, so you can make requests to your backend at that port without cors issues**
 
 **lazy loading enabled**
 
